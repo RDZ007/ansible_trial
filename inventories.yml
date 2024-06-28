@@ -1,0 +1,8 @@
+homeservers:
+  vars:
+    home_user: lawo
+  children:
+    vars:
+      mgmt_ip: 192.168.111.190
+    hosts:
+      ansible_host: "{{mgmt_ip}}"
