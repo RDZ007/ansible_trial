@@ -12,6 +12,6 @@ homeservers:
       vars:
       hosts:
         node_one:
-          mgmt_ip: 192.168.111.190
+          mgmt_ip: 192.168.111.191
           ansible_host: "{{mgmt_ip}}"
           xcs: ['xcs-main', 'xcs-backup']
